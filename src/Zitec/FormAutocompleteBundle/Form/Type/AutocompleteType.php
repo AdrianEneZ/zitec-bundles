@@ -123,7 +123,7 @@ class AutocompleteType extends AbstractType
             ->setAllowedTypes('delay', 'integer')
             ->setAllowedTypes('minimum_input_length', 'integer')
             ->setAllowedTypes('allow_clear', 'boolean')
-            ->setAllowedTypes('dropdown_parent', array('null', 'string'))
+            ->setAllowedTypes('dropdown_parent', ['null', 'string'])
             ->setAllowedTypes('other_select2_options', ['array', 'object', 'null'])
             ->setAllowedTypes('compatibility', 'boolean')
             ->setAllowedValues('compound', $validateNotTrue)
